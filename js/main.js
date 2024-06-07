@@ -16,12 +16,17 @@ import { update_controls } from './control.js'
 // const stats = new Stats()
 // stats.showPanel(0) // 0: fps, 1: ms, 2: mb, 3+: custom
 // document.body.appendChild(stats.dom)
-const imagePath = './gltf/Milkyway_BG.jpg'
+
+
+
+        
+
 
 
 var MODEL_SCALE = 3;
 
 var myscrollbar = get_scrollbar()
+
 
 var clock = new THREE.Clock();
 
@@ -64,6 +69,9 @@ function main() {
 
         
 
+
+        
+
     function render() {
         // stats.update()
         update_controls(model, myscrollbar);
@@ -74,7 +82,9 @@ function main() {
     }
     requestAnimationFrame(render);
 
+
 }
 
-main();
 
+
+main();
