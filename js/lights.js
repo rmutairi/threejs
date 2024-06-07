@@ -2,10 +2,10 @@ function get_lights(THREE, scene) {
     const ambientLight = new THREE.AmbientLight(0xffffff, .75);
 
     // Hemi light
-    const hemiLight = new THREE.HemisphereLight('white', 'green', 0);
+   const hemiLight = new THREE.HemisphereLight('white', 'green', 0);
 
     // Directional light 1
-    const dir1 = new THREE.DirectionalLight('white', 1);
+    const dir1 = new THREE.DirectionalLight('white', 3);
     dir1.position.set(10, 10, 10);
 
     // Directional light 2 
