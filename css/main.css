@@ -53,6 +53,10 @@ iframe {
 	margin: 0;
 	height: 100px;
 	width: 100px;
+	 
+	background: transparent;
+	
+	
 }
 
 #c {
@@ -163,4 +167,8 @@ iframe {
 	100% {
 		transform: translate(24px, 0);
 	}
+}
+
+canvas {
+    background: transparent;
 }
