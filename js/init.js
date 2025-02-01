@@ -31,7 +31,7 @@ function init(THREE) {
   // Create a skysphere
   const skysphereGeometry = new THREE.SphereGeometry(1000, 70, 300); // Increase the radius of the sphere
   const skysphereMaterial = new THREE.MeshBasicMaterial({
-      map: new THREE.TextureLoader().load('/gltf/sky3.png'), // Ensure the texture path is correct
+      map: new THREE.TextureLoader().load('./gltf/sky3.png'), // Ensure the texture path is correct
       side: THREE.BackSide // Render the inside of the sphere
   });
   const skysphere = new THREE.Mesh(skysphereGeometry, skysphereMaterial);
